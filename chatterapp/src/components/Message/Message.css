@@ -1,0 +1,35 @@
+.messageBox {
+    padding: 1vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right {
+    float: right;
+    background-color: #ba3b0a;
+    color: white;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    text-align: left;
+    color: white;
+    background-color: #45C4F5;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 1% 3%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-color: #5a5c5c;
+}
